@@ -1,0 +1,9 @@
+.App-outer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Nunito', sans-serif;;
+}
+.App-inner {
+  flex-grow: 1;
+}

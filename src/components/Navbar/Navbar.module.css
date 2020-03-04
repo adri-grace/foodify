@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    background-color: #9e339e;
+    justify-content: space-around;
+    box-shadow: 2px 2px 7px 2px lightgrey;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    font-weight: 600;
+}
+.navbar ul li {
+    margin: 1rem;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid grey;
+}
+.navbar h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.5rem;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
